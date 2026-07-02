@@ -15,11 +15,11 @@ This was written early on while learning C, and it shows: `loadGameMain()` and `
 
 ## Project structure
 
-- `main.c` — entry point, launches the main menu
-- `menu.c` / `menu.h` — menu screens (main menu, credits, settings)
-- `sudoku.c` / `sudoku.h` — game state (`config` struct), board allocation, constraint checks, rendering
-- `options.txt` — board configuration read at startup (size, empty-cell character, symbol type)
-- `CMakeLists.txt` — CMake build definition
+- `main.c` - entry point, launches the main menu
+- `menu.c` / `menu.h` - menu screens (main menu, credits, settings)
+- `sudoku.c` / `sudoku.h` - game state (`config` struct), board allocation, constraint checks, rendering
+- `options.txt` - board configuration read at startup (size, empty-cell character, symbol type)
+- `CMakeLists.txt` - CMake build definition
 
 ## Requirements
 
